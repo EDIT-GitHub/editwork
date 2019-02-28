@@ -1,0 +1,257 @@
+/* Sprite */
+.uni-event-modal-close-btn,
+.uni-coworking-ec-default .fc-popover .fc-icon-x {background-image: url(../../images/sprite.svg); background-repeat: no-repeat;}
+
+/* Font */
+.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li a.uni-ec-filter-cat-link {font-family: 'Montserrat', sans-serif;}
+.uni-coworking-ec-default .uni-ec-calendar-main-container .fc-toolbar h2,
+.uni-coworking-ec-default .fc-view .fc-head table .fc-widget-header {font-family: 'Lato', sans-serif;}
+
+/* Filter */
+.uni-coworking-ec-default .uni-ec-calendar-filter-container {position:relative;padding: 0 40px; border-bottom: 1px solid #e5e5e5; background: #f4f4f4;}
+.uni-coworking-ec-default .uni-ec-filter-cats-list {position: relative;float: left;margin: 26px 0 24px 0;}
+.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li {display: block;float: left;margin-right: 52px;}
+.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li:last-child {margin-right: 0px;}
+.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li a.uni-ec-filter-cat-link {display: block;line-height: 22px;color: #7f7f7f;font-size: 12px;text-transform: uppercase;text-decoration: none;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li a.uni-ec-filter-cat-link:hover,
+.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li a.uni-ec-filter-cat-link.uni-ec-active {color: #2ebd7f;}
+
+/* Events calendar main contatiner */
+.uni-coworking-ec-default.uni-ec-main-wrapper {margin: 0;}
+.uni-ec-calendar-main-container {padding: 40px 40px 60px;}
+
+/* Icons (inline elements with styled text that mock arrow icons)
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-icon {top: 0!important;}
+.uni-coworking-ec-default .fc-icon:after {color: #7f7f7f;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.uni-coworking-ec-default .fc-icon-left-single-arrow:after {content: "\f104";font-weight:normal;font-size: 120%;font-family:FontAwesome;top: -7%;}
+.uni-coworking-ec-default .fc-icon-right-single-arrow:after {content: "\f105";font-weight:normal;font-size: 120%;font-family:FontAwesome;top: -7%;}
+.uni-coworking-ec-default .fc-icon-left-double-arrow:after {content: "\f100";font-size: 160%;font-family:FontAwesome;top: -7%;}
+.uni-coworking-ec-default .fc-icon-right-double-arrow:after {content: "\f101";font-size: 160%;font-family:FontAwesome;top: -7%;}
+
+.uni-coworking-ec-default .fc-divider, .fc-unthemed .fc-popover .fc-header {background-color:#8ce4cf;}
+.uni-coworking-ec-default .fc-popover .fc-header .fc-title {font-size:13px;color:#ffffff;}
+.uni-coworking-ec-default .fc-popover .fc-header .fc-close {line-height: 18px;font-size: 14px;margin-top: 5px;color: #ffffff;}
+
+/* Buttons (styled <button> tags, normalized to work cross-browser)
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc button {}
+.uni-coworking-ec-default .fc button::-moz-focus-inner { margin: 0; padding: 0; }
+.uni-coworking-ec-default .fc-state-default {border-radius:0;padding:0;width: 50px;height: 50px;background-color:#8ce4cf;}
+.uni-coworking-ec-default .fc-state-default.fc-corner-left {}
+.uni-coworking-ec-default .fc-state-default.fc-corner-right {}
+
+.uni-coworking-ec-default .fc-state-default {box-shadow:none;text-shadow:none;}
+.uni-coworking-ec-default .fc-state-hover,
+.uni-coworking-ec-default .fc-state-down,
+.uni-coworking-ec-default .fc-state-active,
+.uni-coworking-ec-default .fc-state-disabled {}
+.uni-coworking-ec-default .fc-state-hover {}
+.uni-coworking-ec-default .fc-state-down,
+.uni-coworking-ec-default .fc-state-active {}
+.uni-coworking-ec-default .fc-state-disabled {}
+
+/* Tables
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc table {}
+.uni-coworking-ec-default .fc th {}
+.uni-coworking-ec-default .fc th, .uni-coworking-ec-default .uni-coworking-ec-default .fc td {}
+.uni-coworking-ec-default .fc td.fc-today {background: rgba(0,0,0,0);}
+
+.uni-coworking-ec-default .fc-view .fc-head table .fc-widget-header {line-height: 52px; background: #fff;color: #4b4b4b;font-size: 16px;font-weight: 400;}
+body:not(.wp-admin) .uni-coworking-ec-default .fc .fc-widget-header {border: 0!important;}
+/*.uni-coworking-ec-default .fc .fc-day-header {border: 0!important;}*/
+body:not(.wp-admin) .fc-body > tr > .fc-widget-content {border-left: 0!important;border-right: 0px!important;}
+
+.uni-coworking-ec-default .fc-view .fc-body td.fc-time {color: #7f7f7f;font-weight: 400;}
+.fc-unthemed .fc-content, 
+.fc-unthemed .fc-divider, 
+.fc-unthemed .fc-list-heading td, 
+.fc-unthemed .fc-list-view, 
+.fc-unthemed .fc-popover, 
+.fc-unthemed .fc-row, 
+.fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {border-color: #e5e5e5!important;}
+
+/* DayGrid events
+----------------------------------------------------------------------------------------------------
+We use the full "fc-day-grid-event" class instead of using descendants because the event won't
+be a descendant of the grid when it is being dragged.
+*/
+.uni-coworking-ec-default .fc-day-grid-event {margin:0 0 4px 0;border:0;border-left-width:4px;border-style: solid;border-color: #269766; background: #2ebd7f;color: #fff; box-shadow:none;text-decoration: none; cursor:pointer;overflow:hidden;-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;}
+.uni-coworking-ec-default .fc-day-grid-event:hover {text-decoration: none;}
+.uni-coworking-ec-default .fc-day-grid-event .fc-content {padding-left:2px;}
+.uni-coworking-ec-default .fc-day-grid-event .fc-content > * {margin-left:7px;}
+.uni-coworking-ec-default .fc-day-grid-event .fc-content .fc-title {font-size:12px;line-height: 28px;font-weight:normal;}
+.uni-coworking-ec-default .fc-day-grid-event .fc-content .fc-time {font-size:12px;font-weight:bold;}
+
+/* Event Limiting
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default a.fc-more {color: #2ebd7f;}
+.uni-coworking-ec-default a.fc-more:hover {}
+.uni-coworking-ec-default .fc-limited {}
+.uni-coworking-ec-default .fc-day-grid .fc-row {}
+.uni-coworking-ec-default .fc-more-popover {}
+.uni-coworking-ec-default .fc-more-popover .fc-event-container {}
+
+/* Now Indicator
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-now-indicator {}
+
+/* Toolbar
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-toolbar {height: 38px;margin-bottom: 20px;}
+/* title text */
+.uni-coworking-ec-default .fc-toolbar h2 {line-height: 38px;color: #7f7f7f;font-size: 18px;font-weight: 400;text-transform: uppercase;}
+
+/* button layering (for border precedence) */
+.uni-coworking-ec-default .fc-toolbar .fc-button {width: 40px;height: 38px;line-height: 36px;border: 1px solid #e5e5e5;background: #fff;box-shadow: none;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; -webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+.uni-coworking-ec-default .fc-toolbar .fc-button:hover {border-color: #2ebd7f; background: #2ebd7f;}
+.uni-coworking-ec-default .fc-toolbar .fc-button .fc-icon {top: -2px!important;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.uni-coworking-ec-default .fc-toolbar .fc-button .fc-icon {top: 0px!important;}
+}
+.uni-coworking-ec-default .fc-toolbar .fc-button:hover .fc-icon:after {color: #fff;}
+
+/* BasicView
+--------------------------------------------------------------------------------------------------*/
+/* day row structure */
+.uni-coworking-ec-default .fc-basicWeek-view .fc-content-skeleton,
+.uni-coworking-ec-default .fc-basicDay-view .fc-content-skeleton {}
+.uni-coworking-ec-default .fc-basic-view .fc-body .fc-row {height:140px;}
+/* a "rigid" row will take up a constant amount of height because content-skeleton is absolute */
+.uni-coworking-ec-default .fc-row.fc-rigid {}
+.uni-coworking-ec-default .fc-row.fc-rigid .fc-content-skeleton {}
+/* week and day number styling */
+.uni-coworking-ec-default .fc-basic-view .fc-week-number,
+.uni-coworking-ec-default .fc-basic-view .fc-day-number {}
+.uni-coworking-ec-default .fc-basic-view td.fc-week-number span,
+.uni-coworking-ec-default .fc-basic-view td.fc-day-number {text-align: right;padding: 10px 10px;color:#ababab;}
+.uni-coworking-ec-default .fc-basic-view .fc-week-number {}
+.uni-coworking-ec-default .fc-basic-view .fc-week-number span {}
+.uni-coworking-ec-default .fc-ltr .fc-basic-view .fc-day-number {padding-right: 12px!important;}
+.uni-coworking-ec-default .fc-rtl .fc-basic-view .fc-day-number {}
+.uni-coworking-ec-default .fc-day-number.fc-other-month {}
+
+/* AgendaView all-day area
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-agenda-view .fc-day-grid {}
+.uni-coworking-ec-default .fc-agenda-view .fc-day-grid .fc-row {}
+.uni-coworking-ec-default .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {}
+
+/* TimeGrid axis running down the side (for both the all-day area and the slot area)
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-view .fc-axis {padding: 0 20px;line-height: 69px;text-align: left;}
+.uni-coworking-ec-default .fc-view .fc-time-grid .fc-slats td {height: 69px;}
+.uni-coworking-ec-default .fc-view .fc-axis span {font-size: 12px;}
+.uni-coworking-ec-default .fc-ltr .fc-axis {}
+.uni-coworking-ec-default .fc-rtl .fc-axis {}
+.uni-coworking-ec-default .ui-widget td.fc-axis {}
+
+.uni-coworking-ec-default .fc-view .fc-body .fc-axis {background: #fff;}
+.uni-coworking-ec-default .fc-view .fc-body .fc-day {background: #fff;}
+
+/* TimeGrid Structure
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-time-grid-container, /* so scroll container's z-index is below all-day */
+.uni-coworking-ec-default .fc-time-grid {}
+.uni-coworking-ec-default .fc-time-grid-container {overflow:visible!important;}
+.uni-coworking-ec-default .fc-time-grid {}
+.uni-coworking-ec-default .fc-time-grid table {}
+.uni-coworking-ec-default .fc-time-grid > .fc-bg {}
+.uni-coworking-ec-default .fc-time-grid .fc-slats,
+.uni-coworking-ec-default .fc-time-grid > hr {}
+.uni-coworking-ec-default .fc-time-grid .fc-content-col {}
+.uni-coworking-ec-default .fc-time-grid .fc-content-skeleton {}
+/* divs within a cell within the fc-content-skeleton */
+.uni-coworking-ec-default .fc-time-grid .fc-business-container {}
+.uni-coworking-ec-default .fc-time-grid .fc-bgevent-container {}
+.uni-coworking-ec-default .fc-time-grid .fc-highlight-container {}
+.uni-coworking-ec-default .fc-time-grid .fc-event-container {margin:0;}
+.uni-coworking-ec-default .fc-time-grid .fc-event-container.fc-event-container-hover {z-index:10!important;}
+.uni-coworking-ec-default .fc-time-grid .fc-now-indicator-line {}
+.uni-coworking-ec-default .fc-time-grid .fc-helper-container {}
+
+/* TimeGrid Event Containment
+--------------------------------------------------------------------------------------------------*/
+.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event {margin:0;border:0;border-left-width:2px;border-style: solid;border-color: #269766; background-color: #8ce4cf;color: #fff; box-shadow:none;text-decoration: none; cursor:pointer;overflow:hidden;-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;}
+.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event:hover {z-index:999!important;}
+.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event .fc-content {padding: 9px 0 0 10px;}
+.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event .fc-bg {display: none;}
+.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event .fc-content .fc-time {padding: 0; font-size: 12px;font-weight: 400;}
+.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event .fc-content .fc-title {padding: 0;font-size: 16px;font-weight: 300;}
+
+.uni-coworking-ec-default .fc-agendaDay-view .fc-time-grid .fc-event {margin:0;border: 0; border-left: 2px solid #2ebd7f;background-color:#2ebd7f;color:#fff; cursor:pointer;overflow:hidden;box-shadow:none;text-decoration: none; -webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;}
+.uni-coworking-ec-default .fc-agendaDay-view .fc-time-grid .fc-event:hover {}
+.uni-coworking-ec-default .fc-agendaDay-view .fc-time-grid .fc-event .fc-content {padding: 9px 0 0 18px;}
+.uni-coworking-ec-default .fc-agendaDay-view .fc-time-grid .fc-event .fc-bg {display: none;}
+.uni-coworking-ec-default .fc-agendaDay-view .fc-time-grid .fc-event .fc-content .fc-time {padding: 0; font-size: 12px;font-weight: 400;}
+.uni-coworking-ec-default .fc-agendaDay-view .fc-time-grid .fc-event .fc-content .fc-title {padding: 0;font-size: 16px;font-weight: 300;}
+
+/* TimeGrid Event Styling
+----------------------------------------------------------------------------------------------------
+We use the full "fc-time-grid-event" class instead of using descendants because the event won't
+be a descendant of the grid when it is being dragged.
+*/
+.uni-coworking-ec-default .fc-time-grid-event {}
+.uni-coworking-ec-default .fc-time-grid-event.fc-selected {}
+.uni-coworking-ec-default .fc-time-grid-event.fc-selected .fc-bg {}
+.uni-coworking-ec-default .fc-time-grid-event .fc-content {}
+.uni-coworking-ec-default .fc-time-grid-event .fc-content .fc-time span,
+.uni-coworking-ec-default .fc-time-grid-event .fc-content .fc-title {font-size:13px;font-weight:bold;}
+.uni-coworking-ec-default .fc-time-grid-event .fc-content .fc-time span {font-size:12px;font-weight:600;}
+/* short mode, where time and title are on the same line */
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-content {}
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-time,
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-title {}
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-time span {}
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-time:before {content: attr(data-start); /* ...instead, display only the start time */}
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-time:after {content: "\000A0-\000A0"; /* seperate with a dash, wrapped in nbsp's */}
+.uni-coworking-ec-default .fc-time-grid-event.fc-short .fc-title {font-size: .85em; /* make the title text the same size as the time */	padding: 0; /* undo padding from above */}
+
+/* Calendar info modal */
+#js-uni-ec-calendar-info-modal-form {position:absolute; top:30%; left:50%; width: 370px; z-index: 9999;margin-left: -185px;} 
+#js-uni-ec-calendar-info-modal-form .uni-ec-universal-container {position: relative; background: #fcfbfb; -webkit-box-shadow: 0 0px 3px rgba(0,0,0,0.18);-moz-box-shadow: 0 0px 3px rgba(0,0,0,0.18);box-shadow: 0 0px 3px rgba(0,0,0,0.18); -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#js-uni-ec-calendar-info-modal-form .uni-ec-bar.uni-coworking-ec-default {background-color:#8ce4cf;-webkit-border-radius: 3px 3px 0 0;-moz-border-radius: 3px 3px 0 0;border-radius: 3px 3px 0 0;}
+#js-uni-ec-calendar-info-modal-form .uni-ec-bar.uni-ec-title-bar.uni-coworking-ec-default h3 {line-height: 26px;padding: 17px 0;color: #fff;font-size: 14px;text-transform: uppercase;text-align: center;}
+#js-uni-ec-calendar-info-modal-form .uni-ec-form-content {padding: 30px 0 21px 0;}
+#js-uni-ec-calendar-info-modal-form .uni-ec-form-content .uni-ec-form-section.uni-ec-form-section-modal {width: auto;padding: 0 40px;margin: 0;}
+#js-uni-ec-calendar-info-modal-form .uni-event-modal-close-btn {position: absolute;right: -30px;top: 0;width: 16px;height: 16px;text-indent: -99999px;background-position: -80px 0px;cursor: pointer;}
+#js-uni-ec-calendar-info-modal-form.uni-ec-main-wrapper .uni-ec-form-content .uni-ec-info-section {line-height: 30px; margin: 0 0 10px;color: #7f7f7f;font-size: 16px;}
+#js-uni-ec-calendar-info-modal-form.uni-ec-main-wrapper .uni-ec-form-content .uni-ec-form-section p {line-height: 30px; margin: 0;color: #7f7f7f;font-size: 16px;}
+#js-uni-ec-calendar-info-modal-form.uni-ec-main-wrapper .uni-ec-form-content .uni-ec-form-section .uni-ec-info-section-duration-timed {color: #333333;}
+
+/* Month view popover */
+.uni-coworking-ec-default .fc-popover {border: 0;}
+.uni-coworking-ec-default .fc-popover .fc-header {position: relative;padding: 0 20px;line-height: 40px;text-align: center;color: #fff;font-size: 18px;}
+.uni-coworking-ec-default .fc-popover .fc-icon-x {position: absolute;right: 10px;top: 15px;width: 10px;height: 10px;margin: 0!important; text-indent: -99999px;background-position: -133px -93px;cursor: pointer;}
+.uni-coworking-ec-default .fc-popover .fc-icon-x:after {display: none;}
+.uni-coworking-ec-default .fc-popover .fc-event-container {padding: 20px;}
+
+/* Legend */
+.uni-ec-calendar-legend-container {}
+.uni-ec-calendar-legend-container.legend-below {margin-top: -30px;margin-bottom: 80px;}
+.uni-ec-calendar-legend-container.legend-above {margin-top: 30px;}
+.uni-ec-calendar-legend-container ul {display: block;text-align: center;}
+.uni-ec-legend-cat-li {position: relative; display: inline-block;height: 20px; line-height: 18px;padding-left: 40px;margin: 0 20px;vertical-align: top;}
+.uni-ec-legend-cat-dot {position: absolute;left: 0;top: 0; width: 20px;height: 20px;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;}
+.uni-ec-legend-cat-title {color: #4b4b4b;font-size: 14px;}
+
+@media only screen and (max-width: 1279px) {
+	.uni-coworking-ec-default .fc-view .fc-axis {padding: 0 10px;}
+	.uni-coworking-ec-default .fc-agendaWeek-view .fc-time-grid .fc-event .fc-content {padding-left: 10px;}
+}
+@media only screen and (max-width: 1259px) {
+	.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li {margin-right: 32px;}
+}
+@media only screen and (max-width: 1023px) {
+	.uni-ec-calendar-main-container {padding: 20px 20px 40px;}
+	.uni-coworking-ec-default .uni-ec-calendar-filter-container {padding-left: 20px;padding-right: 20px;}
+	
+}
+@media only screen and (max-width: 767px) {
+	.uni-coworking-ec-default .uni-ec-filter-cats-list {margin-bottom: 19px;}
+	.uni-coworking-ec-default .uni-ec-filter-cats-list li.uni-ec-filter-cat-li {margin-bottom: 6px;}
+}
+@media only screen and (max-width: 479px) {
+	.uni-coworking-ec-default .fc-toolbar h2 {font-size: 14px;}
+}
