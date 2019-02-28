@@ -740,8 +740,8 @@ add_action('wp_enqueue_scripts', 'uni_coworking_theme_enqueue_google_maps_script
 function uni_coworking_theme_styles() {
 
     $environment = ENVIRONMENT;
+    $edit_work_theme_version = '1.1.8';
     if ($environment === 'production') {
-         $edit_work_theme_version = '1.1.7';
 
        wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/dist/css/font-awesome.min.css', array(), '4.7.0' );
 
@@ -781,7 +781,7 @@ function uni_coworking_theme_styles() {
         wp_enqueue_style( 'ball-clip-rotate', get_template_directory_uri() . '/css/ball-clip-rotate.css', array(), '0.1.0' );
 
         wp_enqueue_style( 'uni-coworking-theme-styles', get_template_directory_uri() . '/css/style.css', array('bxslider', 'remodal',
-            'remodal-default-theme', 'ball-clip-rotate'), '1.1.4', 'all' );
+            'remodal-default-theme', 'ball-clip-rotate'), $edit_work_theme_version, 'all' );
 
         wp_enqueue_style( 'uni-coworking-theme-adaptive', get_template_directory_uri() . '/css/adaptive.css', array('uni-coworking-theme-styles'), '1.1.3', 'screen' );
     }
