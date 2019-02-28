@@ -741,7 +741,7 @@ function uni_coworking_theme_styles() {
 
     $environment = ENVIRONMENT;
     if ($environment === 'production') {
-         $edit_work_theme_version = '1.1.6';
+         $edit_work_theme_version = '1.1.7';
 
        wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/dist/css/font-awesome.min.css', array(), '4.7.0' );
 
